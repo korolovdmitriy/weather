@@ -4,6 +4,7 @@ export function getRefs() {
         tempetatureDegree: document.querySelector('.temperature-degree'),
         timeZone: document.querySelector('.location-timezone'),
         decs: document.querySelector('.temperature-description'),
-        icon: document.querySelector('.icon')
+        icon: document.querySelector('.icon'),
+        skycons: document.querySelector("#icon1"),
     }
 }
