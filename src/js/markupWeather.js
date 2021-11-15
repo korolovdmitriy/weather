@@ -3,7 +3,7 @@ import { setSkycons } from "./setSkycons";
 const refs = getRefs();
 
 export function markupWeather({ name, weather, main }) {
-    console.log(...weather);
+    
     refs.tempetatureDegree.textContent = Math.round(main.temp);
     refs.timeZone.textContent = name;
     refs.decs.textContent = weather[0].main;

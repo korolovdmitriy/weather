@@ -1,7 +1,5 @@
 export function getImg(name) {
-  console.log(name)
-  const url = `https://pixabay.com/api/?image_type=backgrounds&orientation=horizontal&q=kyiv&per_page=20&key=24332241-c798d1feff33a91af8e5caf46
-  `
+  const url = `https://pixabay.com/api/?image_type=backgrounds&orientation=horizontal&q=${name}&per_page=20&key=24332241-c798d1feff33a91af8e5caf46`;
   return fetch(url).then(response => {
     if (!response.ok) {
       throw new Error(response.status);
