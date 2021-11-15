@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://diVladimirov.github.io/group_parcel",
+  "homepage": "https://korolovdmitriy.github.io/weather",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /group_parcel/"
+    "build": "parcel build src/*.html --public-url /weather/"
   },
   "repository": {
     "type": "git",
