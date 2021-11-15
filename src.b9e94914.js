@@ -22,4 +22,4 @@ var t=arguments[3];!function(t){"use strict";var n,i,e,a;e=t.requestAnimationFra
 },{"./weather":"AZzu","./markupWeather":"CqM2","./getPositionName":"UdK5","./getImg":"PYqE","./setBackground":"Lq87"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/getGeolocation");
 },{"./sass/main.scss":"clu1","./js/getGeolocation":"qZeF"}]},{},["Focm"], null)
-//# sourceMappingURL=/group_parcel/src.12d0aa22.js.map
+//# sourceMappingURL=/weather/src.b9e94914.js.map
